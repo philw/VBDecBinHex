@@ -29,7 +29,7 @@
                     If Answer = BinString Then
                         Console.WriteLine("Correct")
                     Else
-                        Console.WriteLine("WRONG - the answer id {0}", BinString)
+                        Console.WriteLine("WRONG - the answer is {0}", BinString)
                     End If
 
                 Case 1
@@ -40,7 +40,7 @@
                     If NumberAnswer = TheNumber Then
                         Console.WriteLine("Correct")
                     Else
-                        Console.WriteLine("WRONG - the answer id {0}", TheNumber)
+                        Console.WriteLine("WRONG - the answer is {0}", TheNumber)
                     End If
 
                 Case 2
@@ -51,7 +51,7 @@
                     If Answer = HexString Then
                         Console.WriteLine("Correct")
                     Else
-                        Console.WriteLine("WRONG - the answer id {0}", HexString)
+                        Console.WriteLine("WRONG - the answer is {0}", HexString)
                     End If
 
                 Case 3
@@ -62,7 +62,7 @@
                     If Answer = BinString Then
                         Console.WriteLine("Correct")
                     Else
-                        Console.WriteLine("WRONG - the answer id {0}", BinString)
+                        Console.WriteLine("WRONG - the answer is {0}", BinString)
                     End If
 
                 Case 4
@@ -73,7 +73,7 @@
                     If Answer = HexString Then
                         Console.WriteLine("Correct")
                     Else
-                        Console.WriteLine("WRONG - the answer id {0}", HexString)
+                        Console.WriteLine("WRONG - the answer is {0}", HexString)
                     End If
 
                 Case 5
@@ -84,7 +84,7 @@
                     If NumberAnswer = TheNumber Then
                         Console.WriteLine("Correct")
                     Else
-                        Console.WriteLine("WRONG - the answer id {0}", TheNumber)
+                        Console.WriteLine("WRONG - the answer is {0}", TheNumber)
                     End If
 
 
