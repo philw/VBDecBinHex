@@ -7,7 +7,6 @@
         Dim BinString As String
         Dim HexString As String
         Dim Answer As String
-        Dim NumberAnswer As Integer
         Dim QuestionType As Integer
         Dim Again As Char
 
@@ -35,9 +34,9 @@
                 Case 1
                     ' binary to decimal
                     Console.Write("What is the binary number {0} written as a decimal? ", BinString)
-                    NumberAnswer = Console.ReadLine
+                    Answer = Console.ReadLine
 
-                    If NumberAnswer = TheNumber Then
+                    If Answer = TheNumber Then
                         Console.WriteLine("Correct")
                     Else
                         Console.WriteLine("WRONG - the answer is {0}", TheNumber)
@@ -79,9 +78,9 @@
                 Case 5
                     ' hexadecimal to decimal
                     Console.Write("What is the hexadecimal number {0} written as a decimal? ", HexString)
-                    NumberAnswer = Console.ReadLine
+                    Answer = Console.ReadLine
 
-                    If NumberAnswer = TheNumber Then
+                    If Answer = TheNumber Then
                         Console.WriteLine("Correct")
                     Else
                         Console.WriteLine("WRONG - the answer is {0}", TheNumber)
