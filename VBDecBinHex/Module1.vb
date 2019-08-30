@@ -33,7 +33,7 @@
 
                 Case 1
                     ' binary to decimal
-                    Console.Write("What is the binary number {0} written as a decimal? ", BinString)
+                    Console.Write("What is the binary number {0} written as a decimal number? ", BinString)
                     Answer = Console.ReadLine
 
                     If Answer = TheNumber Then
